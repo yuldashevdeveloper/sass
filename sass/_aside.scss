@@ -1,0 +1,112 @@
+aside{
+    .aside-title h2{
+        font-size: 24px;
+        font-weight: 700;
+        font-family: "sans";
+        color: #000;
+        text-align: center;
+        padding-top: 86px;
+    }
+    .aside-title p{
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "sans";
+        text-align: center;
+        color: #000;
+        
+    }
+
+    .boxes{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 70px;
+        padding-top: 24px;
+
+        .box-item{
+            width: 340px;
+            box-shadow: 0px 10px 10px 5px #5d5c5c;
+            text-align: center;
+            border-radius: 5px;
+            padding: 28px 56px;
+
+
+            .box-title{
+                font-size: 20px;
+                font-weight: 700;
+                font-family: "sans";
+                color: #000;
+                padding-bottom: 16px;
+                padding-top: 10px;
+            }
+
+            .box-text{
+                font-size: 16px;
+                font-weight: 400;
+                font-family: "sans";
+                color: #000;
+                padding-top: 25px;
+            }
+        }
+    }
+    .aside-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 48px;
+        gap: 70px;
+
+        .aside-item{
+            width: 340px;
+            box-shadow: 0px 10px 10px 5px #5d5c5c;
+            text-align: center;
+            border-radius: 5px;
+            padding: 28px 56px;
+
+            .aside-ttle{
+                font-size: 20px;
+                font-weight: 700;
+                font-family: "sans";
+                color: #000;
+                padding-bottom: 16px;
+                padding-top: 10px;
+            }
+
+            .aside-text{
+                font-size: 16px;
+                font-weight: 400;
+                font-family: "sans";
+                color: #000;
+                padding-top: 25px;
+            }
+
+            
+        }
+    }
+    
+}
+
+.aside-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 46px;
+    gap: 16px;
+
+     .aside-btnn{
+        padding: 11px 19px;
+        font-size: 16px;
+        font-weight: 700;
+        color: #FFFFFF;
+        font-family: "sans";
+        background-color: #00BAFC;
+        border: none;
+        border-radius: 5px;
+     }
+     .aside-link{
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "sans";
+        color: #00BAFC;
+     }
+}

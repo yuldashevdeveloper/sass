@@ -1,0 +1,39 @@
+main{
+    .main-desc{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 97px;
+        gap: 170px;
+
+        .main-title{
+            width: 500px;
+            font-family: sans;
+            font-size: 30px;
+            font-weight: 700;
+            color: #000000;
+            padding-bottom: 16px;
+        }
+
+        .main-text{
+            font-size: 16px;
+            font-weight: 400;
+            font-family: "sans";
+            color: #000000;
+            padding-bottom: 20px;
+            width: 465px;
+        }
+
+        .main-btn{
+                padding: 8px 16px;
+                font-size: 16px;
+                font-weight: 700;
+                font-family: "sans";
+                color: #fff;
+                background-color: #00BAFC;
+                border: none;
+                border-radius: 5px;
+        }
+
+    }
+}
